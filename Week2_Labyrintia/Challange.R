@@ -60,3 +60,5 @@ ggplot(df, aes(x = gene_names, y = abundance)) +
   theme_minimal() +
   geom_dotplot(binaxis='y', stackdir='center', dotsize=0.5) +
   labs(title = plot_title, x = "sample", y = "Normalized abundance")
+
+test <- read.delim("Vulcano_data.txt")
